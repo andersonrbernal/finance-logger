@@ -21,3 +21,4 @@ function calc(e) {
     }
     list.render(doc, type.value, 'end');
 }
+form.addEventListener('submit', calc);

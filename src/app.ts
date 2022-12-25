@@ -29,3 +29,5 @@ function calc(e: Event): void {
 
     list.render(doc, type.value, 'end');
 }
+
+form.addEventListener('submit', calc);
